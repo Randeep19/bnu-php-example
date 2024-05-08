@@ -4,7 +4,6 @@ include("_includes/config.inc");
 include("_includes/dbconnect.inc");
 include("_includes/functions.inc");
 
-
 // check logged in
 if (isset($_SESSION['id'])) {
 
